@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2fafc; /* Set background color as needed */
+}
+
+.container {
+    text-align: center;
+}
+
+.color-palette {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.color {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 20px; /* Add margin to create gaps */
+}
+
+
+#generateButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71; /* Set button color as needed */
+    color: #ffffff; /* Set text color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
